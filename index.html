@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!----bootstrap cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Github finder project:</title>
+</head>
+<body>
+   <div class="container mt-4">
+    <input type="text" name="" id="inputField" class="form-control" placeholder="Write User Name">
+    <div class="alert alert-info"></div>
+    <button class="btn btn-lg btn-info mb-4 mt-2" id="search">Search</button>
+     <div class="card">
+    
+          <div class="row">
+             <div class="col-md-4"> 
+                 <img src="" class="img-responsive img-fluid" alt="" id="image">
+                 <a href="" class="btn btn-lg btn-primary" id="link">View Profile</a>
+             </div>  <!----end first col-->
+             <div class="col-md-8">
+                <div class="row mt-3 buttonlist">
+                    <div class="col-md-3">  
+                        <button class="btn btn-md btn-primary mt-2" id="repo">Public Repo</button>
+                    </div>  <!----end col 1-->
+                    <div class="col-md-3" >
+                    <button class="btn btn-md btn-secondary mt-2" id="gist">Public Gist</button>
+                    </div>  <!-----end col 2-->
+                    <div class="col-md-3">
+                         <button class="btn btn-md btn-info mt-2" id="followers">Follower</button>
+                    </div> <!-----end col 3-->
+                    <div class="col-md-3">
+                    <button class="btn btn-md btn-warning mt-2" id="following">Following</button>
+                    </div>  <!------end col 4-->
+                </div> <!----end 2nd 1st row-->
+             <div class="list-item mt-3 mb-2">
+                 <li class="list-group-item" id="name">Name</li>
+                 <li class="list-group-item" id="blog">blog</li>
+                 <li class="list-group-item" id="company">Company</li>
+                 <li class="list-group-item" id="organization">Organization Link</li>
+                 <li class="list-group-item" id="location">Location</li>
+                
+             </div>
+             </div>  <!-----end second col-->
+          </div>  <!-----end row-->
+     </div>  <!-----end card-->
+   </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+#search{
+    width:30%
+}
+
+#image{
+    margin-top: 20px;
+}
+#link{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+.list-group-item:nth-child(odd){
+    background-color: rgb(151, 167, 167);
+}
+.list-group-item:nth-child(even){
+    background-color: rgb(253, 255, 255);
+}
+
+.list-item{
+    padding-bottom: 40px;
+}
+
+.alert{
+    margin-top: 10px;
+    display: none;
+}
